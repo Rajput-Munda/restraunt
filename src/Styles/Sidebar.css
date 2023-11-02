@@ -1,0 +1,28 @@
+.sidebar-menus {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-menus a, .sidebar_logout a {
+    padding: 5% 8%;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1 rem;
+    text-decoration: none;
+    color: var(--whiteColor);
+}
+
+/* .sidebar-menus a ion-icon, .sidebar_logout a ion-icon{
+    font-size: 20px;
+} */
+
+.sidebar-menus a:hover, .sidebar_logout a:hover {
+    background-color: var(--secondaryColor);
+    border-radius: 50px;
+}
+
+.icons {
+    font-size: 20px;
+}
